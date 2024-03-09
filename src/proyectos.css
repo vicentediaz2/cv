@@ -1,0 +1,49 @@
+.Proyectos-contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Proyecto{
+    background-color: #373b48;
+    cursor:pointer;
+    width: 29rem;
+    height: 29rem;
+    margin: 4rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    color: white;
+}
+.Proyecto:hover{
+    background-color: #373b48;
+    box-shadow: 0.7rem 0.7rem #16171b;
+    padding: 1.4rem;
+}
+.Proyecto:active{
+    background-color: #373b48;
+    box-shadow: 0.7rem 0.7rem #16171b;
+    padding: 2rem;
+    width: 29rem;
+    height: 39rem;
+}
+.Proyectos-titulo{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+.Proyectos-imagen{
+    height: 20rem;
+    width: 30rem;
+}
+.Proyecto-texto{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.Punto{
+    color: #4B4BCD;
+}
+a{
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: white;
+}

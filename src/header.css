@@ -1,0 +1,39 @@
+.Header-app{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #373b48;
+}
+.Header-titulo {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 1.6rem;
+    margin-top: 4rem;
+}
+.Header-subtitulo{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2.6rem;
+}
+.Header-button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: #3838A2;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 2.4rem;
+    box-shadow: 0.2rem 0.2rem #2f323d;
+    text-decoration: none;
+  }
+.Header-button:hover {
+    background-color: #3A2F86;
+  }
+.Header-button:active {
+    background-color: #41287B;
+  }

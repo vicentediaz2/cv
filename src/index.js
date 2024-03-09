@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Header from './header'
+import About from './tarjeta_about'
+import Estudios from './tarjeta_estudios'
+import Skills from './tarjeta_skills'
+import Proyectos from './proyectos'
+import Contacto from './contacto';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header></Header>
+    <div className='section1'>
+      <About></About>
+      <Estudios></Estudios>
+      <Skills></Skills>
+      <Proyectos></Proyectos>
+      <Contacto></Contacto>
+    </div>
+
   </React.StrictMode>
 );
 

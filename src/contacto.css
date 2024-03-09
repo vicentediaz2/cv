@@ -1,0 +1,35 @@
+.Contacto{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+.Contacto-titulo{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.Contacto-texto{
+    font-size: 2rem;
+    margin: 4rem;
+}
+.imagen{
+    height: 28rem;
+    width: 28rem;
+    margin-top: 10rem;
+    border-radius: 2rem;
+    margin-left: 26rem;
+}
+.imagen:hover{
+    background-color: #3e4352;
+    box-shadow: 0.8rem 0.8rem #16171b;
+    padding: 0.4rem;
+}
+.svg {
+    height: 2rem;
+}
+.Punto{
+    color: #4B4BCD;
+}
