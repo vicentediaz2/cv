@@ -20,7 +20,7 @@ function Contacto() {
                     <img src="svg_globe.svg" className='svg'></img>&emsp; https://vicentediaz2.github.io/cv
                 </p>
             </div>
-            <img className='imagen' src='contacto.jpg'></img>
+            <img className='imagen' src='contacto.jpg' alt='contacto'></img>
         </div>
     );
   }

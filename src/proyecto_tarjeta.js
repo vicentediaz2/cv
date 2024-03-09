@@ -4,7 +4,7 @@ function Proyecto({props}) {
     return (
         <div className="Proyecto">
             <div>
-                <img src={props.imagen} className='Proyectos-imagen'></img>
+                <img src={props.imagen} className='Proyectos-imagen' alt='imagen referencial'></img>
             </div>
             <a href={props.link}>Link</a>
             <p className='Proyecto-texto'>
