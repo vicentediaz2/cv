@@ -1,9 +1,10 @@
 .Contacto{
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 36rem;
+    justify-content: center;
+    gap: 20rem;
     margin-bottom: 4rem;
 }
 .Contacto-titulo{
@@ -19,9 +20,9 @@
 .imagen{
     height: 28rem;
     width: 28rem;
-    margin-top: 10rem;
+    margin-top: 8.8rem;
     border-radius: 2rem;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
 }
 .imagen:hover{
     background-color: #3e4352;
@@ -33,4 +34,14 @@
 }
 .Punto{
     color: #4B4BCD;
+}
+
+@media only screen and (max-width: 1056px) {
+    /* For mobile phones: */
+    .Contacto {
+        gap: 0;
+    }
+    .imagen {
+        margin-top: 4rem;
+    }
 }

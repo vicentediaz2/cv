@@ -5,7 +5,7 @@ function App() {
 
         <section className="Tarjeta Tarjeta-small">
           <p className='Tarjeta-titulo Punto'>
-            Skills <span className='Punto'>.</span><hr/>
+            Skills<hr/>
           </p>
           <ul className='circulo'>
             <li>Python - Avanzado </li>

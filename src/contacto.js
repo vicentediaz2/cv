@@ -5,7 +5,7 @@ function Contacto() {
         <div className="Contacto">
             <div>
                 <p className='Contacto-titulo Punto'>
-                    Contacto .
+                    Contacto
                 </p>
                 <p className='Contacto-texto'>
                     <img src="svg_email.svg" className='svg' alt='email'></img>&emsp; vicentedaniel.diaz2@gmail.com

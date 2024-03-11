@@ -15,7 +15,6 @@ function Proyectos() {
                 <Proyecto props={{imagen: "proyecto2.png", link: "https://vicentediaz2.github.io/juego-memoria/",
                 texto: "Simple juego de memorice realizado con React y alojado en GitHub Page, "}}>
                 </Proyecto>
-
             </div>
         </div>
 

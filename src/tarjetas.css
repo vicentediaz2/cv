@@ -7,7 +7,6 @@
 .Tarjeta-about {
     padding: 1rem;
     margin: 2.6rem;
-    margin-right: 10rem;
     width: 39rem;
     height: 29rem;
 }
@@ -46,6 +45,14 @@ ul.circulo {
     color: #4B4BCD;
 }
 hr {
+    height:0.1rem;
+    margin: 0.2rem;
+    margin-left: 0.1rem;
+    background-color: #4B4BCD;
+    border-color: #4B4BCD;
+}
+.Tarjeta-barra{
+    width: 17.2rem;
     height:0.1rem;
     margin: 0.2rem;
     margin-left: 0.1rem;

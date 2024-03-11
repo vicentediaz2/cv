@@ -17,9 +17,9 @@ root.render(
       <About></About>
       <Estudios></Estudios>
       <Skills></Skills>
+    </div>
       <Proyectos></Proyectos>
       <Contacto></Contacto>
-    </div>
 
   </React.StrictMode>
 );
