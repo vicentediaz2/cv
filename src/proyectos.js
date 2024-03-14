@@ -6,7 +6,7 @@ function Proyectos() {
 
         <div className="Proyectos">
             <p className='Proyectos-titulo Punto'>
-                Proyectos <span className='Punto'>:</span>
+                Proyectos :
             </p>
             <div className='Proyectos-contenedor'>
                 <Proyecto props={{imagen: "proyecto1.png", link: "https://vicentediaz2.github.io/cv/",

@@ -1,3 +1,4 @@
+@import url('./color.css');
 .Proyectos-contenedor{
     display: flex;
     justify-content: center;
@@ -5,23 +6,23 @@
     flex-wrap: wrap;
 }
 .Proyecto{
-    background-color: #373b48;
+    background-color: var(--tarjeta);
     cursor:pointer;
     width: 29rem;
     height: 29rem;
-    margin: 4rem;
+    margin: 4.2rem;
     border-radius: 2rem;
     overflow: hidden;
-    color: white;
+    color: var(--texto);
 }
 .Proyecto:hover{
-    background-color: #373b48;
-    box-shadow: 0.7rem 0.7rem #16171b;
+    background-color: var(--tarjeta-hover);
+    box-shadow: 0.7rem 0.7rem var(--background-primary-shadow);
     padding: 1.4rem;
 }
 .Proyecto:active{
-    background-color: #373b48;
-    box-shadow: 0.7rem 0.7rem #16171b;
+    background-color: var(--tarjeta-active);
+    box-shadow: 0.7rem 0.7rem var(--background-primary-shadow);
     padding: 2rem;
     width: 29rem;
     height: 39rem;
@@ -40,10 +41,10 @@
     margin-left: 1rem;
 }
 .Punto{
-    color: #4B4BCD;
+    color: var(--accent-primary);
 }
 a{
     font-size: 2rem;
     margin-left: 1rem;
-    color: white;
+    color: var(--texto);
 }

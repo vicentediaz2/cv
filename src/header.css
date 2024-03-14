@@ -1,11 +1,13 @@
+@import url('./color.css');
 .Header-app{
     width:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: #373b48;
+    color: var(--text);
+    background-color: var(--background-secondary);
+    height: max-content;
 }
 .Header-titulo {
     font-weight: bold;
@@ -22,18 +24,18 @@
     padding: 1rem 2rem;
     font-size: 1.5rem;
     margin-bottom: 2rem;
-    background-color: #3838A2;
-    color: white;
+    background-color: var(--accent-primary);
+    color: var(--text);
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
     margin-bottom: 2.4rem;
-    box-shadow: 0.2rem 0.2rem #2f323d;
+    box-shadow: 0.2rem 0.2rem var(--background-secondary-shadow);
     text-decoration: none;
   }
 .Header-button:hover {
-    background-color: #3A2F86;
+    background-color: var(--accent-hover);
   }
 .Header-button:active {
-    background-color: #41287B;
+    background-color: var(--accent-active);
   }

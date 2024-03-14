@@ -1,7 +1,8 @@
+@import url('./color.css');
 .Tarjeta {
-    background-color: #373b48    ;
+    background-color: var(--tarjeta)    ;
     border-radius: 2rem;
-    color: white;
+    color: var(--text);
     overflow: hidden;
 }
 .Tarjeta-about {
@@ -11,8 +12,8 @@
     height: 29rem;
 }
 .Tarjeta:hover{
-    background-color: #3e4352;
-    box-shadow: 0.7rem 0.7rem #16171b;
+    background-color: var(--tarjeta-hover);
+    box-shadow: 0.7rem 0.7rem var(--background-primary-shadow);
     padding: 1.4rem;
 }
 .Tarjeta-small {
@@ -42,22 +43,22 @@ ul.circulo {
 .Punto{
     margin: 0;
     padding: 0;
-    color: #4B4BCD;
+    color: var(--accent-primary);
 }
 hr {
     height:0.1rem;
     margin: 0.2rem;
     margin-left: 0.1rem;
-    background-color: #4B4BCD;
-    border-color: #4B4BCD;
+    background-color: var(--accent-hover);
+    border-color: var(--accent-hover);
 }
 .Tarjeta-barra{
     width: 17.2rem;
     height:0.1rem;
     margin: 0.2rem;
     margin-left: 0.1rem;
-    background-color: #4B4BCD;
-    border-color: #4B4BCD;
+    background-color: var(--accent-hover);
+    border-color: var(--accent-hover);
 }
 
 

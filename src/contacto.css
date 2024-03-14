@@ -1,31 +1,35 @@
+@import url('./color.css');
 .Contacto{
     /* margin-left: 2rem; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20rem;
-    margin-bottom: 4rem;
+    gap: 40rem;
+    margin-bottom: 8rem;
 }
 .Contacto-titulo{
     font-size: 4rem;
     font-weight: bold;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 
 .Contacto-texto{
     font-size: 2rem;
     margin: 4rem;
 }
+a{
+    text-decoration: none;
+    margin: 0;
+}
 .imagen{
     height: 28rem;
     width: 28rem;
-    margin-top: 8.8rem;
+    margin-top: 2rem;
     border-radius: 2rem;
-    /* margin-left: 4rem; */
 }
 .imagen:hover{
-    background-color: #3e4352;
+    background-color: var(--background-secondary);
     box-shadow: 0.8rem 0.8rem #16171b;
     padding: 0.4rem;
 }
@@ -33,15 +37,16 @@
     height: 2rem;
 }
 .Punto{
-    color: #4B4BCD;
+    color: var(--accent-primary);
 }
 
-@media only screen and (max-width: 1056px) {
-    /* For mobile phones: */
+@media only screen and (max-width: 1156px) {
     .Contacto {
-        gap: 0;
+        gap: 10rem;
     }
-    .imagen {
-        margin-top: 4rem;
+}
+@media only screen and (max-width: 780px) {
+    .Contacto{
+        gap: 1rem;
     }
 }

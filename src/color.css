@@ -1,0 +1,14 @@
+:root{
+    --background-primary: #292c35;
+    --background-primary-shadow: #252831;
+    --background-secondary: #50525f;
+    --background-secondary-shadow: #42444e;
+    --tarjeta: #393e4e;
+    --tarjeta-hover: #484f68;
+    --tarjeta-active:#121418;
+    --text: #ffffff;
+    --accent-primary: #919fdd;
+    --accent-hover: #7989d1; 
+    --accent-active: #6072c2; 
+}
+

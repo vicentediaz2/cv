@@ -1,6 +1,7 @@
+@import url('./color.css');
 html {
   font-size: 10px;
-  background-color: #1f2127  ;
+  background-color: var(--background-primary)  ;
   color: white;
 }
 body {
