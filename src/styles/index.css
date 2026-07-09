@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background-primary: #08090b;
+  --color-background-secondary: #101216;
+  --color-surface-primary: #16191f;
+  --color-surface-secondary: #1b1f26;
+  --color-text-primary: #f6f1e7;
+  --color-text-muted: #ddd2bf;
+  --color-accent-primary: #ff6a00;
+  --color-accent-hover: #ff8c1a;
+  --color-accent-glow: rgba(255, 106, 0, 0.14);
+  --color-accent-border-soft: rgba(255, 106, 0, 0.16);
+  --color-accent-border-base: rgba(255, 106, 0, 0.22);
+  --color-accent-border-strong: rgba(255, 106, 0, 0.28);
+  --color-accent-border-hover: rgba(255, 106, 0, 0.38);
+  --color-accent-rule: rgba(255, 106, 0, 0.42);
+  --color-accent-divider: rgba(255, 106, 0, 0.3);
+  --color-accent-button-border: rgba(255, 106, 0, 0.72);
+  --font-display: "Pragati Narrow", "Trebuchet MS", sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 10px;
+    background:
+      radial-gradient(circle at top, var(--color-accent-glow), transparent 30%),
+      linear-gradient(180deg, #0b0c0f 0%, var(--color-background-primary) 38%, #050608 100%);
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    color: var(--color-text-primary);
+    font-family: var(--font-display);
+    font-weight: 400;
+    background: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+@layer components {
+  .contact-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    flex: 0 0 auto;
+    background-color: var(--color-accent-primary);
+    opacity: 0.9;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+  }
+}
