@@ -9,6 +9,22 @@ const proyectos = [
     aporte: 'Desarrollé pruebas funcionales, unitarias y e2e para diversos sistemas.'
   },
   {
+  titulo: 'rfid-attendance-dashboard',
+  imagen: 'dashboard.png',
+  link: 'https://github.com/vicentediaz2/rfid-attendance-dashboard/',
+  stack: ['React', 'Vite', 'Express', 'Firebase '],
+  texto: 'Proyecto universitario que visualiza datos de Firebase.',
+  aporte: 'Fui el principal Desarrollador del consumo y visualizacion de datos'
+},
+{
+  titulo: 'rfid-attendance-iot',
+  imagen: 'IoT.png',
+  link: 'https://github.com/vicentediaz2/rfid-attendance-iot',
+  stack: ['Wokwi', 'ESP32', 'Firebase'],
+  texto: 'Proyecto universitario que conencta un rfid y ESP32 con firebase',
+  aporte: 'Apoye en el desarrollo y arquitectura del sistema.'
+},
+  {
     titulo: 'Portafolio web personal',
     imagen: 'proyecto1.png',
     link: 'https://vicentediaz2.github.io/cv/',
@@ -16,12 +32,20 @@ const proyectos = [
     texto: 'Sitio personal orientado a presentar mi perfil, estudios, habilidades y proyectos en un formato claro y profesional.',
     aporte: 'Trabajé en la estructura, el diseño visual, la organización del contenido y la publicación en GitHub Pages.'
   },
-  {
+    {
     titulo: 'Plugins para videojuegos',
     imagen: 'python.png',
     stack: ['Python', 'Plugins'],
     texto: 'De forma independiente, he desarrollado pequeños proyectos relacionados con plugins, mods y complementos para videojuegos.',
     aporte: 'He trabajado en plugins desarrollados con Python.'
+  },
+  {
+    titulo: 'COTISER',
+    imagen: 'COTISER.png',
+    link: 'https://vicentediaz2.github.io/COTISER/',
+    stack: ['Next.js', 'Supabase', 'Tailwind'],
+    texto: 'Desarrolle un micro Saas.',
+    aporte: 'Desarrolle todo la estructura y codigo de un servicio Saas real.'
   }
 ];
 
